@@ -11,10 +11,10 @@ class TasksFloatingActionButton extends StatelessWidget {
     TasksBottomsheetProvider tasksBottomsheetProvider =
         Provider.of<TasksBottomsheetProvider>(context);
     return Padding(
-      padding: const EdgeInsets.fromLTRB(0, 0, 40, 20),
+      padding: const EdgeInsets.fromLTRB(0, 0, 5, 10),
       child: SizedBox(
-        height: 60,
-        width: 60,
+        height: 50,
+        width: 50,
         child: FloatingActionButton(
           backgroundColor: ColorConstants.kPrimaryColor,
           splashColor: ColorConstants.kPrimaryAccentColor,
